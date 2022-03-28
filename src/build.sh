@@ -1,3 +1,3 @@
 #!/bin/bash
 . common.sh
-docker build -t solace-kafka-source-docker:"${SOLACE_SOURCE_CONNECTOR_VERSION}" .
+docker build -t mansonthomas/solace-source-kafka-connector-docker:"${SOLACE_SOURCE_CONNECTOR_VERSION}" .
